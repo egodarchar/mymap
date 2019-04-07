@@ -37,7 +37,7 @@
         {
           coords:{lat:-41.2865,lng:174.7762},
           //iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
-          content:'<h1>Lynn MA</h1>'
+          content:'<h1>Iam Here</h1>'
         },
       
       ];
