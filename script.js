@@ -15,24 +15,8 @@
         addMarker({coords:event.latLng});
       });
 
-      /*
-      // Add marker
-      var marker = new google.maps.Marker({
-        position:{lat:42.4668,lng:-70.9495},
-        map:map,
-        icon:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
-      });
-
-      var infoWindow = new google.maps.InfoWindow({
-        content:'<h1>Lynn MA</h1>'
-      });
-
-      marker.addListener('click', function(){
-        infoWindow.open(map, marker);
-      });
-      */
-
-      // Array of markers
+      
+      // array of Markers
       var markers = [
         {
           coords:{lat:-41.2865,lng:174.7762},
