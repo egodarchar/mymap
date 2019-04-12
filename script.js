@@ -20,7 +20,7 @@
       var markers = [
         {
           coords:{lat:-41.2865,lng:174.7762},
-          //iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+          iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
           content:'<h1>Iam Here</h1>'
         },
       
@@ -44,6 +44,7 @@
         if(props.iconImage){
           // Set icon image
           marker.setIcon(props.iconImage);
+            
         }
 
         // Check content
